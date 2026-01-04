@@ -12,16 +12,16 @@ Output:
 """
 
 def powerSet(numbers):
-     subsets = [[]]
+    subsets = [[]]
      
-     for num in numbers:
-         new_subsets = []
+    for num in numbers:
+        new_subsets = []
          
-         for subset in subsets:
-             new_subsets.append(subset + [num])
-         subsets.extend(new_subsets)
+        for subset in subsets:
+            new_subsets.append(subset + [num])
+        subsets.extend(new_subsets)
          
-     return subsets    
+    return subsets    
          
          
 #Example
